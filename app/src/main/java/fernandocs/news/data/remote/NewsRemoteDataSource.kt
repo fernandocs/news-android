@@ -1,6 +1,5 @@
 package fernandocs.news.data.remote
 
-import fernandocs.news.data.Article
 import fernandocs.news.data.NewsDataSource
 import fernandocs.news.data.remote.api.NewsApi
 import io.reactivex.Flowable

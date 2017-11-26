@@ -1,5 +1,7 @@
-package fernandocs.news.articles
+package fernandocs.news
 
+import fernandocs.news.articles.ArticlesContract
+import fernandocs.news.articles.ArticlesPresenter
 import fernandocs.news.data.Article
 import fernandocs.news.data.NewsRepository
 import fernandocs.news.util.schedulers.BaseSchedulerProvider
@@ -7,7 +9,6 @@ import fernandocs.news.util.schedulers.ImmediateSchedulerProvider
 import io.reactivex.Flowable
 import org.junit.Before
 import org.junit.Test
-import org.mockito.ArgumentMatchers
 import org.mockito.Mock
 import org.mockito.Mockito.*
 import org.mockito.MockitoAnnotations

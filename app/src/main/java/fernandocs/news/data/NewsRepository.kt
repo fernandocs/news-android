@@ -1,7 +1,6 @@
 package fernandocs.news.data
 
 import fernandocs.news.data.remote.NewsRemoteDataSource
-import io.reactivex.Flowable
 
 class NewsRepository
     private constructor(private val remoteDataSource: NewsRemoteDataSource):
