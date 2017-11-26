@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 class NewsApp: Application() {
     companion object {
         private val baseUrl = "https://newsapi.org/v2/"
-        private val apiKey = "8ebe0a704d3c469fbd8cb4d21991f282"
+        private val apiKey = "PUT_YOUR_KEY_HERE"
 
         lateinit var retrofit: Retrofit
     }
