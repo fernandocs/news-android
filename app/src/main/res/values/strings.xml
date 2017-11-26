@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">news-android</string>
+    <string name="app_name">news-mvp-kotlin-rx</string>
+
+    <string name="no_sources">No sources available…</string>
+    <string name="error_get_sources">Error get sources…</string>
+    <string name="no_articles">No articles…</string>
+    <string name="error_get_articles">Error get articles…</string>
 </resources>

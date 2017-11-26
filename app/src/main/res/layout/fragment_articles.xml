@@ -7,7 +7,7 @@
     tools:context="fernandocs.news.sources.SourcesActivity">
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerViewSources"
+        android:id="@+id/recyclerViewArticles"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@null"
@@ -19,12 +19,12 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:reverseLayout="false"
-        app:spanCount="2"
+        app:spanCount="@integer/span_count"
         android:orientation="vertical"
-        tools:listitem="@layout/source_item" />
+        tools:listitem="@layout/article_item" />
 
     <ProgressBar
-        android:id="@+id/progressBarLoadSources"
+        android:id="@+id/progressBarLoadArticles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
